@@ -40,3 +40,13 @@ This dataset can be used to:
 - Train a classification model to predict `outcome`.
 - Identify the most significant feature for claim prediction.
 
+## **Findings & Insights**
+After running multiple models to identify the most significant feature for predicting insurance claims, the results indicate that **driving experience** is the most influential feature. The model using **driving experience** achieved the highest accuracy of **77.71%**, outperforming models trained with other individual features.
+
+### **Key Observations:**
+- **Driving Experience (Years)** had the highest predictive accuracy, suggesting that more experienced drivers are less likely to file claims.
+- **Credit Score & Past Accidents** were also moderately important but did not outperform driving experience.
+- Features like **income level** and **education level** had a lower impact on claim prediction.
+
+This insight can help insurance companies refine their risk assessment strategies and optimize pricing models based on a driver's experience level.
+

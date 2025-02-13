@@ -1,5 +1,5 @@
 # Import required modules
-import pandas as pd
+import pandas as pd #to aid in loading the dataset
 import numpy as np
 from statsmodels.formula.api import logit
 

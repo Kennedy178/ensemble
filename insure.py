@@ -10,7 +10,7 @@ data = pd.read_csv('car_insurance.csv')
 data["credit_score"].fillna(data["credit_score"].mean(), inplace=True)
 data["annual_mileage"].fillna(data["annual_mileage"].mean(), inplace=True)
 
-# Initialize variables to store the best feature and its accuracy
+# Initialize variable to store the best feature and its accuracy
 best_feature = None
 best_accuracy = 0
 

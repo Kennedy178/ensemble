@@ -49,7 +49,7 @@ for model in models:
 # Find the feature with the highest accuracy
 best_feature = features[accuracies.index(max(accuracies))]
 
-# Create a DataFrame to store the best feature and its accuracy
+# Create a DataFrame to store the best feature and it`s accuracy
 best_feature_df = pd.DataFrame({
     'best_feature': [best_feature],
     'best_accuracy': [max(accuracies)]

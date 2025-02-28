@@ -28,11 +28,6 @@ This project applies **K-Means Clustering** to group penguins based on their phy
 - **Researchers**: Can be extended for biological species classification.
 - **Machine Learning Learners**: Demonstrates feature scaling and clustering in action.
 
-## 🚀 Future Improvements
-- Incorporate the **Silhouette Score** for automatic cluster selection.
-- Test alternative clustering methods like **DBSCAN or Agglomerative Clustering**.
-- Enhance visualization with **3D scatter plots** for better insights.
-
 ## 📂 How to Use
 1. Clone this repository:
    ```bash

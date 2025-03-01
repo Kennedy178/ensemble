@@ -46,5 +46,5 @@ This project applies **K-Means Clustering** to group penguins based on their phy
 ---
  **Conclusion**: This project highlights how clustering can uncover hidden patterns in biological data. The identified clusters show clear separations in features, suggesting that species classification could be inferred even without labeled data.
 
-Feel free to fork, modify, and improve! 🚀
+Feel free to fork, modify, and improve! 
 

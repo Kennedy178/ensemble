@@ -63,5 +63,4 @@ To explore the insights and run the models yourself:
 
 ---
 
-Ensemble is not just about code—it's about **actionable insights** that empower businesses and individuals through AI. Let’s make data work for the world! 
 

@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 
-# Step 1 - Loading and examining the dataset
+# Step 1 - Loading and examine the dataset
 penguins_df = pd.read_csv("penguins.csv")
 print(penguins_df.head())
 print(penguins_df.info())

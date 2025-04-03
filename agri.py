@@ -9,7 +9,7 @@ crops = pd.read_csv("soil_measures.csv")
 # Check for missing values
 print(crops.isna().sum())
 
-# Display unique crop types to verify multi-class target
+# Display unique crop types s to verify multi-class target
 print(crops.crop.unique())
 
 # Separate features and target variable

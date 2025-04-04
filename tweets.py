@@ -6,9 +6,9 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report
 
 # load tweet dataset
-df = pd.read_csv('tweets.csv')  # assume it has 'text' and 'target' columns
+df = pd.read_csv('tweets.csv')  #  it has 'text' and 'target' columns
 
-# drop missing values if any
+# drop missing values 
 df.dropna(subset=['text', 'target'], inplace=True)
 
 # split data

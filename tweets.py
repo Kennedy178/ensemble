@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report
 
-# load tweet dataset
+# loading tweet dataset
 df = pd.read_csv('tweets.csv')  #  it has 'text' and 'target' columns
 
 # drop missing values 

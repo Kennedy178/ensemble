@@ -2,7 +2,7 @@
 
 ## **Overview**
 
-**Ensemble** is a repository dedicated to leveraging **Machine Learning (ML) and Artificial Intelligence (AI)** to extract real-world, data-driven insights. This repository hosts various projects that analyze diverse datasets, providing businesses and individuals with actionable intelligence to improve decision-making.
+**Ensemble** is a repository dedicated to leveraging **Machine Learning (ML) and Artificial Intelligence (AI)** to extract real-world, data-driven insights. This repository hosts various projects that analyze diverse datasets, providing businesses and individuals with actionable intelligence to improve decision making.
 
 Each project includes:
 - Well-documented **code implementations**.

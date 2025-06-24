@@ -16,10 +16,10 @@ print(crops.crop.unique())
 X = crops.drop(columns="crop")
 y = crops["crop"]
 
-# Print the columns to verify the feature names
+# Printing the columns to verify the feature names
 print(X.columns)
 
-# Split the data into training and testing sets
+# Spliting the data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(
     X,
     y,

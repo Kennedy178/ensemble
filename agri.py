@@ -6,10 +6,10 @@ from sklearn import metrics
 # Loadthe dataset
 crops = pd.read_csv("soil_measures.csv")
 
-# Check for missing values
+# Check for missing value
 print(crops.isna().sum())
 
-# Display unique crop types s to verify multi-class target
+# Display ingunique crop types s to verify multi-class target
 print(crops.crop.unique())
 
 # Separate features and target variable

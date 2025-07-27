@@ -3,7 +3,7 @@ import pandas as pd #to aid in loading the dataset
 import numpy as np
 from statsmodels.formula.api import logit
 
-# Loading the dataset
+# Load the dataset
 data = pd.read_csv('car_insurance.csv')
 
 # Handle missing values by filling with the mean

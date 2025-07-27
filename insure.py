@@ -14,7 +14,7 @@ data["annual_mileage"].fillna(data["annual_mileage"].mean(), inplace=True)
 best_feature = None
 best_accuracy = 0
 
-# Feature columns
+# Feature column
 features = data.drop(columns=['id', 'outcome']).columns
 
 # Empty list to store model results

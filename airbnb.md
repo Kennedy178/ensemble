@@ -9,11 +9,7 @@ New York City is one of the most-visited cities in the world, leading to a high 
 
 This project combines Airbnb data from three different files to:
 
-* **Clean and process listing data** (e.g., prices, room types, and reviews)
-* **Merge datasets** from multiple formats into one comprehensive DataFrame
-* **Analyze trends** in review dates, room availability, and pricing
 
----
 
 ## 📊 Data Sources
 

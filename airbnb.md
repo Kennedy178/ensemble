@@ -84,7 +84,7 @@ This project combines Airbnb data from three different files to:
 
 ---
 
-## 📜 Requirements
+
 
 * **Python 3.8+**
 * **pandas**

@@ -19,7 +19,7 @@ merged_df['last_review'] = pd.to_datetime(merged_df['last_review'])
 earliest_review = merged_df['last_review'].min()
 most_recent_review = merged_df['last_review'].max()
 
-# Count the number of private room listings
+# Counting the number of private room listings
 private_rooms_count = merged_df[merged_df['room_type'] == 'private room'].shape[0]
 
 # Convert 'price' to numeric and calculate the average listing price

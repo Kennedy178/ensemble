@@ -1,6 +1,6 @@
 import pandas as pd
 
-# Load the data from each file
+# Loading  the data from each file
 price_df = pd.read_csv('data/airbnb_price.csv')
 room_type_df = pd.read_excel('data/airbnb_room_type.xlsx')
 last_review_df = pd.read_csv('data/airbnb_last_review.tsv', delimiter='\t')

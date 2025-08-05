@@ -7,7 +7,7 @@ from scipy.stats import mannwhitneyu
 men = pd.read_csv("men_results.csv")
 women = pd.read_csv("women_results.csv")
 
-# Convert date columns to datetime
+# Converting date columns to datetime
 men["date"] = pd.to_datetime(men["date"])
 women["date"] = pd.to_datetime(women["date"])
 

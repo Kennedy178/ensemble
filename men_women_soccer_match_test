@@ -1,1 +1,9 @@
 
+# Imports
+import pandas as pd
+from scipy.stats import mannwhitneyu
+
+# Load the datasets
+men = pd.read_csv("men_results.csv")
+women = pd.read_csv("women_results.csv")
+

@@ -11,22 +11,3 @@ women = pd.read_csv("women_results.csv")
 men["date"] = pd.to_datetime(men["date"])
 women["date"] = pd.to_datetime(women["date"])
 
-# Filter data for World Cup matches from 2002 onwards
-men_wc = men[(men["date"] > "2002-01-01") & (men["tournament"] == "FIFA World Cup")]
-women_wc = women[(women["date"] > "2002-01-01") & (women["tournament"] == "FIFA World Cup")]
-
-# Calculate total goals scored in each match
-men_wc["goals_scored"] = men_wc["home_score"] + men_wc["away_score"]
-women_wc["goals_scored"] = women_wc["home_score"] + women_wc["away_score"]
-
-# Perform the Wilcoxon-Mann-Whitney test (one-tailed)
-stat, p_val = mannwhitneyu(women_wc["goals_scored"], men_wc["goals_scored"], alternative="greater")
-
-# Determine the result based on the p-value and the significance level
-alpha = 0.10
-result = "reject" if p_val <= alpha else "fail to reject"
-
-# Store the results in a dictionary
-result_dict = {"p_val": p_val, "result": result}
-
-print(result_dict)

@@ -7,3 +7,10 @@ from scipy.stats import mannwhitneyu
 men = pd.read_csv("men_results.csv")
 women = pd.read_csv("women_results.csv")
 
+# Convert date columns to datetime
+men["date"] = pd.to_datetime(men["date"])
+women["date"] = pd.to_datetime(women["date"])
+
+# Filter data for World Cup matches from 2002 onwards
+men_wc = men[(men["date"] > "2002-01-01") & (men["tournament"] == "FIFA World Cup")]
+women_wc = women[(women["date"] > "2002-01-01") & (women["tournament"] == "FIFA World Cup")]

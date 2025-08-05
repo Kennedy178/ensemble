@@ -21,3 +21,12 @@ women_wc["goals_scored"] = women_wc["home_score"] + women_wc["away_score"]
 
 # Perform the Wilcoxon-Mann-Whitney test (one-tailed)
 stat, p_val = mannwhitneyu(women_wc["goals_scored"], men_wc["goals_scored"], alternative="greater")
+
+# Determine the result based on the p-value and the significance level
+alpha = 0.10
+result = "reject" if p_val <= alpha else "fail to reject"
+
+# Store the results in a dictionary
+result_dict = {"p_val": p_val, "result": result}
+
+print(result_dict)

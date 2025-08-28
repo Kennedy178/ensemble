@@ -5,7 +5,7 @@ price_df = pd.read_csv('data/airbnb_price.csv')
 room_type_df = pd.read_excel('data/airbnb_room_type.xlsx')
 last_review_df = pd.read_csv('data/airbnb_last_review.tsv', delimiter='\t')
 
-# Cleaning 'room_type' data
+# Clean 'room_type' data
 room_type_df['room_type'] = room_type_df['room_type'].str.lower()
 
 # Merge DataFrames on 'listing_id'

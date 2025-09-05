@@ -12,7 +12,7 @@ room_type_df['room_type'] = room_type_df['room_type'].str.lower()
 merged_df = pd.merge(price_df, room_type_df, on='listing_id')
 merged_df = pd.merge(merged_df, last_review_df, on='listing_id')
 
-# Convert 'last_review' to datetime format
+# Converting 'last_review' to datetime format
 merged_df['last_review'] = pd.to_datetime(merged_df['last_review'])
 
 # Find the earliest and most recent review dates

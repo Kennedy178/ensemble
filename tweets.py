@@ -11,7 +11,7 @@ df = pd.read_csv('tweets.csv')  #  it has 'text' and 'target' columns
 # drop missing values 
 df.dropna(subset=['text', 'target'], inplace=True)
 
-# spliting data
+# split data
 X_train, X_test, y_train, y_test = train_test_split(df['text'], df['target'], test_size=0.2, random_state=42)
 
 # vectorize text using TF-IDF

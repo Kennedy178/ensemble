@@ -10,7 +10,7 @@ from sklearn.metrics import adjusted_rand_score
 import matplotlib.pyplot as plt
 
 # Generate synthetic data for demonstration
-#  overlapping distributions
+# overlapping distributions
 X, y_true = make_blobs(n_samples=1000, centers=5, cluster_std=1.5, n_features=8, random_state=42)
 
 # Scale the data for better numerical performance

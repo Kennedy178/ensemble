@@ -3,7 +3,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn import metrics
 
-# Load the dataset
+# Load ing the dataset
 crops = pd.read_csv("soil_measures.csv")
 
 # Check missing values

@@ -7,7 +7,7 @@ from sklearn.manifold import TSNE
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Create synthetic dataset for binary classification
+# Creating synthetic dataset for binary classification
 X, y = make_classification(n_samples=2000, n_features=20, n_informative=10,
                            n_redundant=5, n_classes=2, random_state=42)
 X = torch.tensor(X, dtype=torch.float32)

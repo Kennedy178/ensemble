@@ -13,7 +13,7 @@ X, y = make_classification(n_samples=2000, n_features=20, n_informative=10,
 X = torch.tensor(X, dtype=torch.float32)
 y = torch.tensor(y, dtype=torch.long)
 
-# Split into training and validation sets
+# Spliting into training and validation sets
 train_size = int(0.8 * len(X))
 val_size = len(X) - train_size
 train_data, val_data = random_split(TensorDataset(X, y), [train_size, val_size])

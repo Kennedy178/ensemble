@@ -17,7 +17,7 @@ X, y_true = make_blobs(n_samples=1000, centers=5, cluster_std=1.5, n_features=8,
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
 
-# Compute mutual information for each feature relative to class labels
+# Compute' mutual information for each feature relative to class labels
 # Helps quantify nonlinear dependency between features and target
 mi_scores = mutual_info_classif(X_scaled, y_true, random_state=42)
 mi_ranking = np.argsort(mi_scores)[::-1]
